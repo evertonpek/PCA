@@ -1,0 +1,80 @@
+﻿body {
+    background-color: #fefbd8;
+}
+
+
+#top_bar {
+    width: 70%;
+    height: 200px;
+    background-color: #666;
+    border-radius: 10px;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    transform: translate(20%, 0%);
+    
+}
+
+
+
+
+
+
+#bt_counter {
+    position: relative;
+    left: -80px;
+    top: 5px;
+    font-weight: bold;
+}
+
+
+/* DivTable.com */
+.divTable {
+    display: table;
+    width: 400px;
+    
+}
+
+.divTableRow {
+    display: table-row;
+
+
+}
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+    border: 1px solid black;
+    display: table-cell;
+    padding: 3px 20px;
+    height: 30px;
+    vertical-align: bottom;
+    font-weight: bold;
+    
+    
+}
+
+.divTableCell:hover, .divTableHead:hover {
+    
+    background-color:darkslategray;
+}
+
+
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+
+.divTableBody {
+    display: table-row-group;    
+}
